@@ -8,6 +8,6 @@ Current public notebook: `self_defeating_public_investment_cuts_2025_current_rea
 Live-source status from the local QA run:
 - Eurostat: used_live_official_api, requested 2025, actual max year 2025.
 - OECD TiVA: used_live_official_api, requested 2025, actual max year 2022.
-- Paper-number checks: 5/6 reference tables consistent.
+- Paper-number checks: 6/6 reference tables consistent.
 
-Ireland still lacks the 2025 Eurostat financial-account rows required by the household financial-account input. The paper headline response and debt tables remain unchanged; the only live-source alert is a small diagnostic-table drift in model-admission metadata.
+Ireland still lacks the 2025 Eurostat financial-account rows required by the household financial-account input. The paper headline response and debt tables remain unchanged; diagnostic metadata now match the current notebook reference.

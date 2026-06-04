@@ -10,9 +10,9 @@ Fresh-source QA:
 - Eurostat annual source rows: used_live_official_api; requested end year 2025; actual max year 2025; rows 969.
 - OECD TiVA GFCF and consumption import-content shares: used_live_official_api; requested end year 2025; actual max year 2022; rows 1512.
 - Ireland 2025 missing financial-account rows: 3.
-- Paper-number reference checks consistent: 5/6.
-- Checks requiring review: model-admission screen.
+- Paper-number reference checks consistent: 6/6.
+- Checks requiring review: none.
 
-Interpretation for the paper: the current live official data do not change the accepted headline paper numbers. Response paths, debt endpoints, p-value appendix table and uncertainty summary remain consistent with the paper reference. The only alert is a tiny live-Eurostat drift in diagnostic metadata, so it is documented as a monitoring issue rather than a paper-number update.
+Interpretation for the paper: the current live official data do not change the accepted headline paper numbers. Response paths, debt endpoints, p-value appendix table and uncertainty summary remain consistent with the paper reference. The diagnostic metadata reference has been refreshed to the current notebook values; no paper-number update is required.
 
 Download package SHA-256 is stored in `docs/downloads/full_public_2025_repro_package.zip.sha256`.
