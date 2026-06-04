@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Dominik" />
+  <title>Rozliczenie anotacji po pelnej refinacji 2025</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Rozliczenie anotacji po pelnej refinacji 2025</h1>
+<p class="author">Dominik</p>
+</header>
+<h1 id="rozliczenie-anotacji-po-pełnej-refinacji-2025">Rozliczenie
+anotacji po pełnej refinacji 2025</h1>
+<p>Data: 2026-06-03</p>
+<p>Ten dokument rozlicza dwie grupy uwag merytorycznych. Pierwsza to
+cztery nowe anotacje R953 dodane do poprzedniego rozliczenia. Druga to
+uwagi domknięte wcześniej zbyt płytko, które mapa otwartych uwag
+wskazała jako wymagające pogłębienia. Każdy wpis pokazuje, co operator
+podkreślił, co było słabe wcześniej, jak praca to zaadresowała oraz
+dosłowny fragment obecnego manuskryptu, który tego dowodzi.</p>
+<p>Status dokumentu: zamknięty po pełnym audycie Pro. GPT Pro 5.5 w
+piątej rundzie zwrócił werdykt 10/10 dla manuskryptu i 10/10 dla
+notebooka, bez wymaganych poprawek. Każdy cytat poniżej jest dosłowny z
+żywego manuskryptu i został niezależnie zweryfikowany pod kątem
+obecności i głębokości. To jest istotna różnica wobec poprzedniej
+wersji, która niosła etykiety “Status przed Pro” i jeden źle dopasowany
+cytat. Patrz sekcja procesowa na końcu.</p>
+<h2 id="wpływ-na-paper-i-notebook">Wpływ na paper i notebook</h2>
+<p>Paper został zmieniony merytorycznie w sekcji 1.1, czyli w opisie
+bazy Komisji, oraz w sekcji 1.2, czyli w krytyce literatury (Borys,
+Ciżkowicz, Rzońca oraz Alesina i pokrewni). Poprawiono też dwie pozycje
+bibliograficzne. Notebook nie zmienił żadnej liczby, a jego warstwa
+czytelności została przepisana i ponownie wykonana, z zachowaniem
+bajtowo identycznego kodu.</p>
+<p>Chronione liczby pozostają nietknięte: 55.1, 106.8, 2.87, 2.37-2.91,
+2.59, 2.23, 1.78, 1.94, salda -10 i -3.9, próg 60, marginesy długu 2036
+(7.7, 7.3, 4.3, 3.7), zakres 1.7-3.5 oraz p-wartości 0.002, 0.003,
+0.080, 0.461. Pro potwierdził ich obecność i odtwarzalność z
+dostarczonych plików wynikowych.</p>
+<h1 id="klaster-a-baza-komisji-arytmetyka-zamiast-instytucji">Klaster A:
+baza Komisji, arytmetyka zamiast instytucji</h1>
+<h2
+id="a1-n01-r953-g1-m05-nierealizm-bazy-ma-być-arytmetyczny-nie-głównie-instytucjonalny">A1
+(N01, R953-G1, M05): nierealizm bazy ma być arytmetyczny, nie głównie
+instytucjonalny</h2>
+<p><strong>Podkreślenie operatora:</strong> ekonomiczny i
+instytucjonalny sens bazy Komisji.</p>
+<p><strong>Anotacja operatora:</strong> perspektywa jest za mało
+post-keynesowska, lepiej nacisk na nierealistyczność założeń modelu
+Komisji, a nie głównie na to, że aktorzy nie reagują.</p>
+<p><strong>Co było słabe wcześniej:</strong> wcześniejsze zamknięcie
+opierało nierealizm głównie na argumencie instytucjonalno-behawioralnym,
+że rynki, instytucje i politycy mieliby nie reagować na narastający
+dług.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>The implausibility is arithmetic before it is behavioural, and it can
+be read directly off the Commission’s own inputs. The baseline’s implied
+nominal interest rate on government debt rises from about 4.8 percent in
+2025 to about 6.2 percent in 2036, and the implied real rate rises from
+roughly 1.2 percent to roughly 3.4 percent over the same span. The
+interest-growth differential, favourable in the early years, changes
+sign in the course of the projection: nominal growth exceeds the implied
+interest rate until 2029 but falls short of it from 2030 onward, so the
+snowball term that initially lowers the ratio turns into one that raises
+it. By 2036 the differential alone adds about 0.9 percentage point to
+the debt ratio each year before any primary deficit is counted.
+Evaluating that condition at the 2036 debt ratio of 106.8 percent of GDP
+and the baseline’s own 2036 differential, stabilising the ratio would
+require a primary surplus of about one percent of GDP, whereas the
+baseline assumes a primary deficit near -3.9 percent. The distance
+between the assumed balance and the debt-stabilising balance is
+therefore close to five percentage points of GDP.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> ciężar
+argumentu przeniesiono na arytmetykę długu. Implikowana ścieżka stopy
+nominalnej i realnej, zmiana znaku różnicy stopa-wzrost w 2030, efekt
+kuli śnieżnej około 0.9 punktu rocznie oraz luka około pięciu punktów
+PKB między saldem założonym a stabilizującym są policzone wprost z wejść
+Komisji. Zdanie o braku reakcji aktorów zostało zdegradowane do “points
+the same way”, a reguły krajowe do roli tła.</p>
+<p><strong>Widoczne dowody i źródła:</strong> warunek stabilizacji długu
+z ECB WP2486 (Checherita-Westphal i Domingues Semeano, 2020),
+zoperacjonalizowany na wejściach DSM2025 Komisji. Niezależne
+przeliczenie w
+<code>proposals/commission_baseline_arithmetic.md</code>.</p>
+<p><strong>Walidacja Pro:</strong> wymiar A (arytmetyka) PASS. Pro
+niezależnie odtworzył człon kuli śnieżnej 0.9060 punktu, saldo
+stabilizujące 0.9487 procent oraz lukę 4.8423 punktu.</p>
+<p><strong>Ograniczenie:</strong> to jest korekta interpretacji bazy
+Komisji, bez nowej estymacji.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2
+id="a2-f02-ciężar-z-reguł-krajowych-przeniesiony-na-argument-arytmetyczny">A2
+(F02): ciężar z reguł krajowych przeniesiony na argument
+arytmetyczny</h2>
+<p><strong>Podkreślenie operatora:</strong> nacisk na krajowe reguły
+fiskalne i średniookresowy plan budżetowo-strukturalny.</p>
+<p><strong>Anotacja operatora:</strong> reguły krajowe są arbitralne,
+więc nie mogą być głównym dowodem nierealizmu.</p>
+<p><strong>Co było słabe wcześniej:</strong> dowód nierealizmu opierał
+się zbyt mocno na prawie krajowym.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>Poland’s domestic fiscal regime and medium term fiscal structural
+plan are consistent with this reading, but the arithmetic is the
+load-bearing point: the baseline endpoint is a surveillance
+counterfactual under strained debt dynamics, not a fiscal path that the
+Polish government could select and sustain</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong>
+czasownik zmieniono z “reinforce this interpretation” na “are consistent
+with this reading, but the arithmetic is the load-bearing point”. Reżim
+krajowy i plan średniookresowy są teraz tłem, nie dowodem.</p>
+<p><strong>Widoczne dowody i źródła:</strong> ten sam warunek ECB WP2486
+i wejścia DSM2025. Zmiana udokumentowana w
+<code>proposals/stream1_commission_baseline_proposal.md</code> punkt
+7.</p>
+<p><strong>Walidacja Pro:</strong> wymiar A (arytmetyka) PASS, wszystkie
+liczby pod argumentem się odtwarzają.</p>
+<p><strong>Ograniczenie:</strong> brak.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h1
+id="klaster-b-krytyka-borys-ciżkowicz-rzońca-szeroka-nie-tylko-o-inwestycjach">Klaster
+B: krytyka Borys, Ciżkowicz, Rzońca, szeroka nie tylko o
+inwestycjach</h1>
+<h2
+id="b1-m10-n03-r953-g3a-krytyka-poszerzona-na-cały-claim-ekspansywnej-austerity">B1
+(M10, N03, R953-G3a): krytyka poszerzona na cały claim ekspansywnej
+austerity</h2>
+<p><strong>Podkreślenie operatora:</strong> zdanie traktujące pracę jako
+wąską instancję tezy tylko dla pytania o inwestycje publiczne.</p>
+<p><strong>Anotacja operatora:</strong> krytyka ma być szeroka i
+miażdżąca, przez wszystkie kanały, które autorzy wskazują, nie tylko o
+cięciach inwestycji.</p>
+<p><strong>Co było słabe wcześniej:</strong> zdanie zawężało krytykę do
+pytania o inwestycje publiczne.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>Borys, Ciżkowicz and Rzońca (2013) advance the expansionary-austerity
+claim across the full set of demand components on which that claim
+depends, and this paper rejects it on each of those components rather
+than only for public investment. Their New Member State panel identifies
+fiscal impulses through four aggregate procedures and reports that
+expenditure-based fiscal adjustments are accompanied by accelerated
+private investment and export growth, stronger wage moderation, and
+improved cost competitiveness, whereas expenditure-based fiscal stimuli
+decelerate private investment and export growth and weaken
+competitiveness (Borys, Ciżkowicz and Rzońca, 2013).</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong>
+krytyka obejmuje teraz cały claim ekspansywnej austerity przez cztery
+kanały, które sami autorzy wskazują, czyli inwestycje prywatne, eksport,
+moderację płac i konkurencyjność kosztową. Stara rama “narrow instance”
+i koncesja “rather neutral” zostały usunięte.</p>
+<p><strong>Widoczne dowody i źródła:</strong> Borys, Ciżkowicz i Rzońca
+(2013), NBP WP 161, dosłowne przyznania autorów z dossier (NBP161 linie
+241-245, 563-566, 991-996, 1014-1016). Kotwica odwrotnej przyczynowości
+z Breuer (2019).</p>
+<p><strong>Walidacja Pro:</strong> wymiar B (wierność cytatów) PASS,
+pięć dosłownych cytatów Borysa potwierdzonych wobec pliku
+źródłowego.</p>
+<p><strong>Ograniczenie:</strong> brak bezpośredniej opublikowanej
+krytyki Borysa et al. z nazwy w kanonie, wsparcie jest bezpośrednie dla
+metod i analogiczne dla szerszej literatury.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2
+id="b2-n02-r953-g2-f06-usunięta-koncesja-rather-neutral-brak-pozytywnego-statusu">B2
+(N02, R953-G2, F06): usunięta koncesja “rather neutral”, brak
+pozytywnego statusu</h2>
+<p><strong>Podkreślenie operatora:</strong> słowo evidence i fraza
+“described as rather neutral”.</p>
+<p><strong>Anotacja operatora:</strong> określenie zbyt pozytywne,
+zdanie nie może sugerować, że krytykowana praca ma rację nawet w wąskim
+sensie, oraz brak długich myślników w okolicy.</p>
+<p><strong>Co było słabe wcześniej:</strong> poprzednie zdanie nadawało
+tezie lokalnie pozytywny status przez koncesję “rather neutral”.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>The authors read the small estimated effect on aggregate GDP not as a
+refutation but as confirmation, since in their account expenditure cuts
+shift growth toward investment, exports, and the cost channel; the claim
+that cutting expenditure stimulates private investment, exports, and
+competitiveness is therefore the operative expansionary-austerity
+proposition, and it is that proposition this paper rejects.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong>
+koncesję usunięto. Bliski zera efekt na zagregowany PKB jest teraz
+przedstawiony jako część tezy samych autorów, nie jako fakt na ich
+korzyść. Zdanie nie przyznaje pozytywnego statusu nawet lokalnie.</p>
+<p><strong>Widoczne dowody i źródła:</strong> wniosek NBP161, dosłownie
+linia 1192-1193 (“the total output response to fiscal policy is shaped
+mainly by the reaction of investment and export”). Zmiana w
+<code>proposals/stream1_borys_proposal.md</code> punkt 2.</p>
+<p><strong>Walidacja Pro:</strong> wymiar B (wierność cytatów) PASS oraz
+higiena długich myślników PASS, manuskrypt ma zero długich myślników i
+półpauz.</p>
+<p><strong>Ograniczenie:</strong> artykuł zostaje w paperze jako istotny
+dla debaty o ekspansywnej austerity, zmieniono jego status
+interpretacyjny.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2
+id="b3-r953-g3b-żargon-rozwinięty-w-prostym-języku-przy-pierwszym-użyciu">B3
+(R953-G3b): żargon rozwinięty w prostym języku przy pierwszym
+użyciu</h2>
+<p><strong>Podkreślenie operatora:</strong> skróty CAPB, von Hagen,
+action-based dataset, CAPB-type.</p>
+<p><strong>Anotacja operatora:</strong> rozwinąć albo usunąć te terminy
+przy pierwszym użyciu, prosty język.</p>
+<p><strong>Co było słabe wcześniej:</strong> gołe tokeny żargonowe bez
+wyjaśnienia.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>The identifiers are the cyclically-adjusted primary balance (the
+budget balance net of interest, purged of the part of the deficit that
+moves automatically with the business cycle, abbreviated CAPB), the
+underlying balance (the CAPB further corrected for one-off transfers),
+an impulse derived from the simplified growth-accounting rule associated
+with von Hagen, and a reduced action-based indicator that records only
+the sign of legislated fiscal action rather than its size.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> każdy
+termin jest teraz glosowany prostym językiem przy pierwszym użyciu, a
+goły token “CAPB-type indicators” przeredagowano na opisową frazę.</p>
+<p><strong>Widoczne dowody i źródła:</strong> kotwice liniowe w
+<code>proposals/stream1_borys_proposal.md</code> punkt 3 (CAPB 555-558,
+underlying balance 563-566, von Hagen 570-571, reduced action-based
+612-628).</p>
+<p><strong>Walidacja Pro:</strong> wymiar B (wierność cytatów) PASS,
+proza niosąca te rozwinięcia bez błędnej atrybucji.</p>
+<p><strong>Ograniczenie:</strong> brak.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2
+id="b4-r953-g3c-trzy-zarzuty-oparte-na-dosłownych-przyznaniach-autorów-widoczna-głębia">B4
+(R953-G3c): trzy zarzuty oparte na dosłownych przyznaniach autorów,
+widoczna głębia</h2>
+<p><strong>Podkreślenie operatora:</strong> trzy zarzuty przeciw
+przenoszeniu Borysa na cięcia inwestycji.</p>
+<p><strong>Anotacja operatora:</strong> czy te argumenty są mocne, czy
+mamy literaturę na ich poparcie, proszę pogłębić, poszerzyć kanon, dodać
+odniesienia.</p>
+<p><strong>Co było słabe wcześniej:</strong> trzy intuicyjne zdania bez
+widocznej mapy źródło do twierdzenia.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>The result cannot support claims about cutting public investment for
+three reasons, and the strongest version of each reason is one the
+authors themselves state. First, the fiscal impulses rest on aggregate
+balance measures and an action-based proxy that mix expenditure
+instruments together and never isolate public investment. The authors
+qualify the CAPB themselves, noting that it “should be used with
+caution, as noticed by the IMF (2010)”. Second, the timing of
+consolidation episodes is exposed to the selection problem that the
+authors concede they cannot remove. They write that controlling for
+endogeneity through fiscal impulses “may be insufficient to fully
+eliminate the endogeneity bias”, that an instrumental-variables
+estimator is barred because “the severe bias of this estimator when
+applied to short samples prevent us from using it”, and that the results
+“should be treated with caution because of the estimation problems
+typical for panel data models”. Third, every channel the authors propose
+runs through wage moderation, cost competitiveness, private investment,
+and exports, none of which is public capital formation. The authors
+close on the same note, conceding that “the conclusions drawn on their
+basis should be taken with caution”.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> każdy
+z trzech zarzutów stoi teraz na dosłownym przyznaniu samych autorów z
+NBP WP161, zakotwiczonym w konkretnych liniach źródła. Najmocniejsza
+wersja każdego zarzutu pochodzi od krytykowanej pracy.</p>
+<p><strong>Widoczne dowody i źródła:</strong> dossier Ognisko 2,
+dosłowne cytaty z NBP161 (linie 241-245, 991-996, 563-566, 1014-1016).
+Zmiany w <code>proposals/stream1_borys_proposal.md</code> punkty
+4-6.</p>
+<p><strong>Walidacja Pro:</strong> wymiar B (wierność cytatów) PASS,
+wszystkie pięć cytatów Borysa potwierdzone dosłownie, łącznie z
+gramatyką źródła.</p>
+<p><strong>Ograniczenie:</strong> podparcie jest bezpośrednie dla metod
+artykułu i analogiczne dla szerszej literatury identyfikacyjnej.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h1 id="klaster-c-krytyka-alesiny-ogólna-nie-zawężona">Klaster C:
+krytyka Alesiny, ogólna nie zawężona</h1>
+<h2
+id="c1-m09-usunięta-koncesja-useful-zarzut-identyfikacyjny-uogólniony-na-całą-literaturę">C1
+(M09): usunięta koncesja “useful”, zarzut identyfikacyjny uogólniony na
+całą literaturę</h2>
+<p><strong>Podkreślenie operatora:</strong> zdanie “this categorization
+is useful for broadly comparing adjustment styles”.</p>
+<p><strong>Anotacja operatora:</strong> usunąć koncesję, uogólnić zarzut
+identyfikacyjny na całą literaturę, nie tylko tę pracę.</p>
+<p><strong>Co było słabe wcześniej:</strong> koncesja “useful” i
+zawężenie zarzutu do jednej pracy.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>The identification problem here is not specific to one study but runs
+through this entire line of work: aggregate plans are not fiscal
+instruments, and plan labels are not shocks. The originators of this
+literature concede the gap themselves. Alesina and Ardagna (2010)
+acknowledge that “there can still be an endogeneity issue related to the
+occurrence of fiscal adjustments and expansions, because, in principle,
+discretionary policy choices of fiscal authorities can be affected by
+countries’ macroeconomic conditions”, and that the correlation between a
+successful adjustment and a falling debt ratio “is not perfect” because
+the numerator can drop faster than the denominator.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong>
+koncesję “useful” usunięto, a zarzut identyfikacyjny rozszerzono na całą
+linię badań przez własne przyznania twórców (Alesina i Ardagna 2010),
+reapraisal flagowych epizodów u Perottiego (2011) i poziom pomiaru u
+Breuera (2019). Inwestycje publiczne zostają jako przypadek decydujący,
+nie jako jedyny zakres.</p>
+<p><strong>Widoczne dowody i źródła:</strong> dossier ognisko 3
+(Alesina-Ardagna 2010 linie 349-352 i 495-498, Perotti 2011 linie 50-57
+i 137-139, Breuer 2019 linie 114-119 i 245-247). Zmiany w
+<code>proposals/stream1_alesina_proposal.md</code>.</p>
+<p><strong>Walidacja Pro:</strong> wymiar B (wierność cytatów) PASS,
+wszystkie dziesięć cytatów sekcji 1.2 potwierdzone.</p>
+<p><strong>Ograniczenie:</strong> brak.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2
+id="c2-pillar-2-zarzut-utrzymany-ogólny-bez-ponownego-zawężania-do-inwestycji">C2
+(pillar-2): zarzut utrzymany ogólny, bez ponownego zawężania do
+inwestycji</h2>
+<p><strong>Podkreślenie operatora:</strong> zdanie o cięciach wydatków,
+zwłaszcza inwestycji, poprawiających dług.</p>
+<p><strong>Anotacja operatora:</strong> utrzymać ogólność zarzutu, nie
+zawężać z powrotem do inwestycji publicznych.</p>
+<p><strong>Co było słabe wcześniej:</strong> zamknięcie zarzutu z
+powrotem na inwestycje publiczne.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>Evidence on the composition of consolidation therefore does not
+separate one expenditure instrument from another when evaluating the
+macroeconomic consequences of fiscal adjustment. For the question
+studied here this gap is decisive, because public investment is
+precisely the instrument that aggregate composition labels submerge,
+which is why the analysis below measures movements in public investment
+directly and traces their dynamic output responses (Alesina, Favero and
+Giavazzi, 2015; Breuer, 2019; Ardanaz, Cavallo, Izquierdo and Puig,
+2021).</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> zdanie
+końcowe uogólniono z wąskiego “does not cleanly separate public
+investment from public consumption” na “does not separate one
+expenditure instrument from another”. Inwestycje publiczne są teraz
+stawką tej pracy, nie zakresem zarzutu.</p>
+<p><strong>Widoczne dowody i źródła:</strong>
+<code>proposals/stream1_alesina_proposal.md</code> punkt 10, oparte na
+cytacie Breuera (2019) o odwrotnej przyczynowości CAPB.</p>
+<p><strong>Walidacja Pro:</strong> edycja prozy, walidowana przez
+wierność cytatów PASS dla sekcji 1.2 i ogólny werdykt manuskryptu
+10/10.</p>
+<p><strong>Ograniczenie:</strong> brak.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h1 id="klaster-d-weryfikacja-źródeł-i-atrybucji">Klaster D: weryfikacja
+źródeł i atrybucji</h1>
+<h2
+id="d1-f10-pozycja-grodzicki-możdżeń-zygmuntowski-sprawdzona-u-źródła-i-poprawiona">D1
+(F10): pozycja Grodzicki, Możdżeń, Zygmuntowski sprawdzona u źródła i
+poprawiona</h2>
+<p><strong>Podkreślenie operatora:</strong> pozycja “Grodzicki, Mozdzen
+and Zygmuntowski (2022) support the fiscal-rule part”.</p>
+<p><strong>Anotacja operatora:</strong> sprawdzić, czy ci autorzy w tym
+kontekście to napisali, bo kanon ma to jako monografię, a nie angielski
+policy report.</p>
+<p><strong>Co było słabe wcześniej:</strong> zmyślony angielski tytuł
+“policy report” w pozycji bibliograficznej.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>Grodzicki, M., Mozdzen, M. and Zygmuntowski, J. J. (2022). Numeryczne
+reguly fiskalne - podejscie krytyczne [Numerical fiscal rules: a
+critical approach]. In Polityka fiskalna dla regeneracji. Warszawa:
+Wydawnictwo Naukowe Scholar.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong>
+atrybucja trzech autorów i teza rozdziału potwierdzone u źródła. R955
+zastąpił zmyślony angielski tytuł faktycznym rozdziałem polskiej
+monografii. Dodatkowo, w tej rundzie wykryto i poprawiono drobny błąd
+tytułu: monografia nosi tytuł “Polityka fiskalna dla regeneracji” (z
+“dla”), potwierdzony stroną kanonu wiki i numerem ISBN
+978-83-66849-44-1; manuskrypt miał wcześniej “Polityka fiskalna
+regeneracji” bez “dla”, co teraz naprawiono.</p>
+<p><strong>Widoczne dowody i źródła:</strong>
+<code>audit/AUDIT_REPORT_STREAM2_SOURCES_20260603.md</code>, strona
+kanonu <code>wiki/literature/mozdzen-zygmuntowski-2022.md</code> (pełny
+tytuł i ISBN).</p>
+<p><strong>Walidacja Pro:</strong> wymiar B (wierność cytatów) PASS,
+brak błędnej atrybucji w warstwie literatury. To jest parafraza, nie
+jeden z dziesięciu dosłownych cytatów.</p>
+<p><strong>Ograniczenie:</strong> brak, po poprawce tytułu pozycja jest
+zgodna ze źródłem.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10, z poprawką tytułu w
+tej rundzie.</p>
+<h2
+id="d2-n04-r953-g4-m18-termin-conditioning-information-set-zachowany-jako-termin-z-literatury">D2
+(N04, R953-G4, M18): termin “conditioning information set” zachowany
+jako termin z literatury</h2>
+<p><strong>Podkreślenie operatora:</strong> “conditioning information
+set”, “conditioning dimension”.</p>
+<p><strong>Anotacja operatora:</strong> sprawdzić, czy “conditioning
+set” to termin z literatury lokalnych projekcji, przywrócić i
+ujednolicić jeśli tak, uprościć jeśli nie.</p>
+<p><strong>Co było słabe wcześniej:</strong> wcześniejsze rozliczenie
+nie pokazało, czy literatura używa takiego języka.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>For fiscal multiplier analysis the method is well suited, since the
+estimate depends on the shock definition, the fiscal instrument, the
+horizon, and the conditioning information set (Ramey and Zubairy, 2018;
+Ramey, 2019).</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> termin
+jest używany w pokrewnej literaturze lokalnych projekcji, więc zachowano
+go w paperze i ujednolicono rodzinę terminów warunkujących w sekcjach
+2.1 i 2.2. Uczciwie: w samych Ramey-Zubairy 2018 potwierdzony jest
+koncept (mnożniki zależą od stanów, na które się warunkuje), a sam
+dosłowny zwrot pojawia się u Cloyne, Jorda i Taylor oraz Dell’Erba,
+Koloskova i Poplawski-Ribeiro. Termin został w paperze zachowany, nie
+usunięty i przywrócony.</p>
+<p><strong>Widoczne dowody i źródła:</strong> Ramey i Zubairy (2018)
+przypis 10, oraz <code>proposals/stream4_style_pilot.md</code> linia 95
+i kontrola niezmiennika linia 114, gdzie termin jest na liście
+zachowanych bez zmiany.</p>
+<p><strong>Walidacja Pro:</strong> nie był osobno adjudykowany jako
+wymiar, walidowany pośrednio przez ogólny werdykt 10/10.</p>
+<p><strong>Ograniczenie:</strong> termin jest dopuszczalny w
+literaturze, choć mniej przyjazny czytelnikowi.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2
+id="d3-f11-kanał-kursowy-i-kompozycyjny-ma-źródło-w-kanonie-i-jest-obecny">D3
+(F11): kanał kursowy i kompozycyjny ma źródło w kanonie i jest
+obecny</h2>
+<p><strong>Podkreślenie operatora:</strong> materiał o kursie walutowym
+i kompozycji usunięty z powodu braku źródła.</p>
+<p><strong>Anotacja operatora:</strong> nie usuwać, doszukać źródła w
+kanonie i przywrócić, jeśli istnieje.</p>
+<p><strong>Co było słabe wcześniej:</strong> ryzyko usunięcia materiału
+bez sprawdzenia kanonu.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>This pattern fits the trade multiplier literature, which treats
+import leakage as composition dependent rather than governed by a simple
+openness rule: fiscal transmission depends on the domestic value added
+content of demand, the relative import content of public versus private
+expenditure, production structure, financing, and invoicing conditions
+(Ilzetzki, Mendoza and Vegh, 2013; Cacciatore and Traum, 2020; Crespo
+Cuaresma and Glocker, 2023).</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> audyt
+źródeł potwierdził, że źródło istnieje w kanonie (Ilzetzki, Mendoza i
+Vegh 2013, mnożniki różne według reżimu kursowego i kompozycja wydatków
+istotna). Materiał jest obecny i zacytowany, nie usunięty.</p>
+<p><strong>Widoczne dowody i źródła:</strong>
+<code>audit/AUDIT_REPORT_STREAM2_SOURCES_20260603.md</code> sekcja F11,
+pozycje bibliograficzne Ilzetzki-Mendoza-Vegh 2013, Cacciatore-Traum
+2020, Crespo Cuaresma-Glocker 2023.</p>
+<p><strong>Walidacja Pro:</strong> wymiar F (higiena paczki) PASS i
+wymiar B PASS, <code>source_inventory_r788.csv</code> z 15 pozycjami
+obecny, źródło zamknięte.</p>
+<p><strong>Ograniczenie:</strong> dokładne sformułowanie zostaje decyzją
+operatora, materiał jest osadzony w kanonie.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h2 id="d4-r02-cytowanie-ciaffi-wskazuje-właściwy-paper">D4 (R02):
+cytowanie Ciaffi wskazuje właściwy paper</h2>
+<p><strong>Podkreślenie operatora:</strong> cytat i link Ciaffi.</p>
+<p><strong>Anotacja operatora:</strong> potwierdzić, że cytowanie Ciaffi
+wskazuje właściwy paper.</p>
+<p><strong>Co było słabe wcześniej:</strong> ryzyko kolizji trzech
+różnych prac Ciaffi 2024.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>This shock-identification-plus-local projection structure follows
+Ciaffi, Deleidi and Di Domenico (2024), and the present paper adapts it
+to an EU27 annual panel and to the evaluation of Polish state
+variables.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong>
+manuskrypt nosi trzy odrębne prace Ciaffi 2024, każda przypisana
+poprawnie. Szkielet metodyczny cytuje Ciaffi, Deleidi i Di Domenico
+(2024, Journal of Policy Modeling), wyniki mnożnika OECD cytują Ciaffi,
+Deleidi i Capriati (2024, Economia Politica), a argument o
+predeterminacji dodaje Ciaffi, Deleidi i Mazzucato (2024, Industrial and
+Corporate Change). Żadne cytowanie nie koliduje z niewłaściwą pracą.</p>
+<p><strong>Widoczne dowody i źródła:</strong> lista referencji
+manuskryptu, trzy odrębne pozycje Ciaffi 2024 z własnymi współautorami i
+czasopismami.</p>
+<p><strong>Walidacja Pro:</strong> brak błędnej atrybucji Ciaffi w R962,
+wymiar B (wierność cytatów) PASS bez wytkniętej wady proweniencji.</p>
+<p><strong>Ograniczenie:</strong> brak.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h1 id="klaster-e-treść-merytoryczna-sekcja-aplikacji">Klaster E: treść
+merytoryczna, sekcja aplikacji</h1>
+<h2
+id="e1-f13-m22-konin-jako-dowód-cięcia-inwestycji-krytyka-nie-za-słaba">E1
+(F13, M22): Konin jako dowód cięcia inwestycji, krytyka nie za
+słaba</h2>
+<p><strong>Podkreślenie operatora:</strong> CPK i Konin jako
+przykłady.</p>
+<p><strong>Anotacja operatora:</strong> Konin ma być dowodem cięć
+inwestycji, a krytyka ograniczania programu przez rząd nie ma być za
+słaba, bo formalnie program trwa, materialnie tną.</p>
+<p><strong>Co było słabe wcześniej:</strong> ryzyko zbyt słabego
+sformułowania, że program trwa formalnie, a jest materialnie cięty.</p>
+<p><strong>Obecny fragment paperu:</strong></p>
+<blockquote>
+<p>Moving from a committed implementation route with a designated
+partner back to renewed site analysis is itself a substantial investment
+cut behind formal programme continuity, alongside delayed investment
+decisions and a slower annual expenditure trajectory.</p>
+</blockquote>
+<p><strong>Dlaczego uznajemy to za zaadresowane głęboko:</strong> Konin
+jest wprost ujęty jako istotne cięcie inwestycji, a CPK i program
+jądrowy jako formalna ciągłość z materialnym ograniczeniem. Edycje stylu
+obniżyły rejestr bez osłabiania tezy, użyto słów “falls sharply”, “cut”,
+“substantial investment cut”.</p>
+<p><strong>Widoczne dowody i źródła:</strong> własny zestaw źródeł
+oficjalnych sekcji aplikacji (uchwały Rady Ministrów 2023/2024,
+Ministerstwo Aktywów Państwowych 2022, Ministerstwo Energii 2025, Yonhap
+2025, Centralny Port Komunikacyjny 2025). Podstawa edycji:
+<code>proposals/stream4_b5.json</code> pozycje 1-2.</p>
+<p><strong>Walidacja Pro:</strong> wymiar D (integralność wywodu)
+potwierdził, że ledger stylu ma 16 pozycji, wszystkie nowe wersje
+obecne, stare nieobecne, bez regresji liczb ani konkluzji. Ogólny
+werdykt manuskryptu 10/10.</p>
+<p><strong>Ograniczenie:</strong> brak.</p>
+<p><strong>Status:</strong> zamknięte po Pro 10/10.</p>
+<h1 id="sekcja-procesowa-f09-i-r953-g3d">Sekcja procesowa: F09 i
+R953-G3d</h1>
+<p><strong>Anotacja operatora F09:</strong> “To jest cytat?!” przy
+fragmencie w dokumencie rozliczeniowym.</p>
+<p><strong>Anotacja operatora R953-G3d:</strong> dokument oznaczony
+“Status przed Pro” trafił do operatora przed audytem Pro.</p>
+<p><strong>Co było słabe wcześniej:</strong> to są uwagi o dokumencie
+rozliczeniowym i dyscyplinie procesu, nie o prozie manuskryptu.
+Weryfikacja potwierdziła, że operator miał rację co do F09: poprzednie
+rozliczenie niosło cytat przypisany do sekcji, którego brzmienie nie
+zgadzało się z żywym manuskryptem. To był realnie źle dopasowany
+cytat.</p>
+<p><strong>Jak to zamknięto:</strong> ten dokument używa wyłącznie
+cytatów dosłownych z żywego manuskryptu, a każdy został niezależnie
+sprawdzony pod kątem obecności w pliku. Cała praca tej rundy przeszła
+przez pełny audyt Pro przed jakąkolwiek dostawą, więc żaden materiał
+oznaczony “przed Pro” nie idzie do Ciebie jako zamknięty. Status każdego
+punktu wyżej brzmi “zamknięte po Pro 10/10”, a nie “przed Pro”.</p>
+<p><strong>Status:</strong> zamknięte przez dyscyplinę procesu, nie
+przez edycję manuskryptu.</p>
+<h1 id="pozycje-zweryfikowane-jako-już-domknięte">Pozycje zweryfikowane
+jako już domknięte</h1>
+<p>Trzy wcześniejsze pozycje sprawdzono bezpośrednim przeszukaniem
+żywego manuskryptu i nie mają w nim śladu, więc nie wymagały edycji:</p>
+<ul>
+<li>M08 i F04 (wzmianki o notebooku i materiałach replikacyjnych): zero
+trafień frazy “notebook” w prozie manuskryptu.</li>
+<li>M21 (“midpoint to nie average”): zero trafień frazy “midpoint”.</li>
+<li>M24 (kolumna “Design matrix rank”): zero trafień “design matrix” ani
+“matrix rank” w prozie, jedyne “rank” to zapis matematyczny w
+appendixie.</li>
+</ul>
+<p><strong>Status:</strong> zweryfikowane jako nieobecne w manuskrypcie,
+domknięte.</p>
+<h1 id="bramka-głębokości">Bramka głębokości</h1>
+<p>Każdy punkt wyżej przeszedł podwójną kontrolę: ugruntowanie w
+dosłownym fragmencie żywego manuskryptu oraz adwersaryjną weryfikację,
+czy odpowiedź rzeczywiście trafia w sens anotacji, czy nie jest płytka,
+czy nie przyznaje pozytywnego statusu krytykowanej tezie i czy nie
+zawęża z powrotem. Wszystkie piętnaście punktów przeszło obie kontrole.
+Pełny audyt Pro zwrócił 10/10 dla manuskryptu i 10/10 dla notebooka bez
+wymaganych poprawek.</p>
+</body>
+</html>

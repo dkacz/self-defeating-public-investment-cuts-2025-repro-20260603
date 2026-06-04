@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "application/epub+zip",
+      "name": "Annotation_Accounting_2025_Current_R962_20260603.epub",
+      "path": "annotation_accounting_current_20260603/Annotation_Accounting_2025_Current_R962_20260603.epub",
+      "size": 25372,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "text/html",
+      "name": "Annotation_Accounting_2025_Current_R962_20260603.html",
+      "path": "annotation_accounting_current_20260603/Annotation_Accounting_2025_Current_R962_20260603.html",
+      "size": 36391,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-25T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-25T00:00:00Z",
+      "mimetype": "text/markdown",
+      "name": "Annotation_Accounting_2025_Current_R962_20260603.md",
+      "path": "annotation_accounting_current_20260603/Annotation_Accounting_2025_Current_R962_20260603.md",
+      "size": 27478,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-25T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-25T00:00:00Z",
+  "mimetype": null,
+  "name": "annotation_accounting_current_20260603",
+  "path": "annotation_accounting_current_20260603",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
