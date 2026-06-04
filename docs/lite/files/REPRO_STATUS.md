@@ -1,11 +1,18 @@
-# Repro status
+# Public Reproduction Delivery Report R967
 
-Current status: public notebook, package and paper-number checks synchronized.
+Date: 2026-06-04
 
-The public notebook is rendered directly on the landing page and is also available as a raw notebook file. It has 589 cells, 273 code cells, a maximum of 10 nonblank code lines per code cell, no multi-output code cells and a visible paper-number consistency section.
+Public entry point: https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260603/lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r966_20260604.ipynb
 
-Paper-number consistency passes 6/6 checks: retained response paths, retained debt endpoints, all 2036 debt endpoints, the model-admission screen, the p-value appendix table and the uncertainty summary. The maximum absolute difference against paper-reference tables is 1.4210854715202004e-14.
+The public root now opens the interactive JupyterLite notebook rather than a frozen rendered notebook page. The shipped notebook fetches official Eurostat and OECD TiVA sources where available, then falls back to packaged snapshots if a source is unavailable.
 
-The public package uses official Eurostat values where available through 2025 and does not fabricate TiVA after its official 2022 endpoint. Ireland stays in the panel except where the missing 2025 household financial-account observation makes a state-specific calculation unavailable.
+Fresh-source QA:
+- Eurostat annual source rows: used_live_official_api; requested end year 2025; actual max year 2025; rows 969.
+- OECD TiVA GFCF and consumption import-content shares: used_live_official_api; requested end year 2025; actual max year 2022; rows 1512.
+- Ireland 2025 missing financial-account rows: 3.
+- Paper-number reference checks consistent: 5/6.
+- Checks requiring review: model-admission screen.
 
-Paper-truth impact: no empirical paper number changes. This status file describes the public delivery layer only.
+Interpretation for the paper: the current live official data do not change the accepted headline paper numbers. Response paths, debt endpoints, p-value appendix table and uncertainty summary remain consistent with the paper reference. The only alert is a tiny live-Eurostat drift in diagnostic metadata, so it is documented as a monitoring issue rather than a paper-number update.
+
+Download package SHA-256 is stored in `docs/downloads/full_public_2025_repro_package.zip.sha256`.
