@@ -10,7 +10,7 @@
       "mimetype": "text/csv",
       "name": "appendix-d-2025-coefficients.csv",
       "path": "manuscript/tables/appendix-d-2025-coefficients.csv",
-      "size": 38912,
+      "size": 35589,
       "type": "file",
       "writable": true
     },
@@ -24,7 +24,7 @@
       "mimetype": "text/markdown",
       "name": "appendix-d-2025-coefficients.md",
       "path": "manuscript/tables/appendix-d-2025-coefficients.md",
-      "size": 73080,
+      "size": 78010,
       "type": "file",
       "writable": true
     },
@@ -52,7 +52,7 @@
       "mimetype": "text/csv",
       "name": "appendix-d-2025-pvalue-summary.csv",
       "path": "manuscript/tables/appendix-d-2025-pvalue-summary.csv",
-      "size": 3016,
+      "size": 3015,
       "type": "file",
       "writable": true
     },
@@ -66,7 +66,7 @@
       "mimetype": "text/markdown",
       "name": "appendix-d-2025-pvalue-summary.md",
       "path": "manuscript/tables/appendix-d-2025-pvalue-summary.md",
-      "size": 9214,
+      "size": 9452,
       "type": "file",
       "writable": true
     },
@@ -80,7 +80,7 @@
       "mimetype": "text/csv",
       "name": "appendix-d-2025-response-bridge.csv",
       "path": "manuscript/tables/appendix-d-2025-response-bridge.csv",
-      "size": 3513,
+      "size": 3511,
       "type": "file",
       "writable": true
     },
@@ -94,7 +94,7 @@
       "mimetype": "text/markdown",
       "name": "appendix-d-2025-response-bridge.md",
       "path": "manuscript/tables/appendix-d-2025-response-bridge.md",
-      "size": 2873,
+      "size": 3807,
       "type": "file",
       "writable": true
     },
@@ -108,7 +108,7 @@
       "mimetype": "text/csv",
       "name": "appendix-d-2025-sample-diagnostics.csv",
       "path": "manuscript/tables/appendix-d-2025-sample-diagnostics.csv",
-      "size": 25967,
+      "size": 24263,
       "type": "file",
       "writable": true
     },
@@ -122,7 +122,7 @@
       "mimetype": "text/markdown",
       "name": "appendix-d-2025-sample-diagnostics.md",
       "path": "manuscript/tables/appendix-d-2025-sample-diagnostics.md",
-      "size": 58580,
+      "size": 52200,
       "type": "file",
       "writable": true
     }
