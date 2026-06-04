@@ -1,15 +1,13 @@
-# Self-defeating public investment cuts: 2025 reproducibility package
+# Self-Defeating Public Investment Cuts 2025: public reproduction
 
-This package contains the current 2025 paper, the executed public notebook, source data extracts, result tables, figures and the Boox annotation-accounting note.
+Interactive notebook:
+https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-20260603/lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_2025_current_reader_notebook_r966_20260604.ipynb
 
-The public notebook is the main checking route. It walks through data coverage, Ireland's 2025 missing financial-account observation, the official TiVA 2022 endpoint, state construction, local projections, uncertainty, debt translation, figures and paper-number consistency.
+Current public notebook: `self_defeating_public_investment_cuts_2025_current_reader_notebook_r966_20260604.ipynb`.
 
-Current notebook facts:
+Live-source status from the local QA run:
+- Eurostat: used_live_official_api, requested 2025, actual max year 2025.
+- OECD TiVA: used_live_official_api, requested 2025, actual max year 2022.
+- Paper-number checks: 5/6 reference tables consistent.
 
-- 569 cells;
-- 262 code cells;
-- 307 markdown cells;
-- 6/6 paper-number consistency checks pass;
-- maximum paper-reference difference: 1.4210854715202004e-14.
-
-The numbers in the notebook are the same numbers used in the paper. The remaining files are supporting data, figures, article renders and source tables.
+Ireland still lacks the 2025 Eurostat financial-account rows required by the household financial-account input. The paper headline response and debt tables remain unchanged; the only live-source alert is a small diagnostic-table drift in model-admission metadata.
