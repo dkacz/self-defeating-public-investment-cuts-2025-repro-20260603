@@ -5,13 +5,13 @@ https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-2026060
 
 Current public notebook: `self_defeating_public_investment_cuts_2025_current_reader_notebook_r966_20260604.ipynb`.
 
-Current manuscript render: R999, published 2026-06-05 after targeted Section 1.1 and Section 1.2 wording repairs: redundant transition phrases were removed, the baseline paragraph now restores the DSM structural-balance endpoint near -10 percent of GDP, and the Section 1.2 opening now starts directly from the policy concern.
+Current manuscript render: R1002, published 2026-06-05 after targeted Section 1.1 and Section 1.2 wording repairs: redundant transition phrases were removed, `scenario exercise` was replaced, interest and growth wording was unpacked, the DSM structural balance is reported exactly at -9.9 percent of GDP, the Section 1.2 opening no longer suggests that the Commission DSA is internally consistent, and the debt stabilisation sentence now separates the method source from the Commission baseline numbers.
 
 Current manuscript hashes:
-- PDF: `061dd70c55ceea9b3943c91d7a427b1a160291c868fd85aa3472a5aca4506bd5`
-- EPUB: `dfe458fa9fbc0630db343736a27b294237ea1e7cb2e9ad6c0fbecc9f5e783ff7`
-- HTML: `355fd92a436149404c46f7f7171483334c8ab17c10c0dc4f7533fc6f3f11ca16`
-- QMD: `42a0ddcd1ee3e2d56e60c65ea2b65de7366684031484d33962a83b92618fc022`
+- PDF: `b599ec4ff4b3bb8b1aab3e789c09eb6235c17f473b0a77ac7d0681af0f8583c3`
+- EPUB: `4947bd56cc863b28ea8235bfb5e069427fb7a9878a74ea427c877b29792a6281`
+- HTML: `24d30bdf650774d60ef2e252a3ade4e225c31f79fa86806126849b55fe6c5572`
+- QMD: `45cb6d26e0531ca424cc079b058fe02de7467bd3d14dc92efaee6d4c28396c90`
 
 Live-source status from the local QA run:
 - Eurostat: used_live_official_api, requested 2025, actual max year 2025.
