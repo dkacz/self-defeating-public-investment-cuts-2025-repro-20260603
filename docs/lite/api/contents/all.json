@@ -108,7 +108,7 @@
       "mimetype": "application/epub+zip",
       "name": "manuscript_imrad.epub",
       "path": "manuscript_imrad.epub",
-      "size": 479804,
+      "size": 479635,
       "type": "file",
       "writable": true
     },
@@ -122,7 +122,7 @@
       "mimetype": "text/html",
       "name": "manuscript_imrad.html",
       "path": "manuscript_imrad.html",
-      "size": 242704,
+      "size": 242239,
       "type": "file",
       "writable": true
     },
@@ -136,7 +136,7 @@
       "mimetype": "application/pdf",
       "name": "manuscript_imrad.pdf",
       "path": "manuscript_imrad.pdf",
-      "size": 514574,
+      "size": 514140,
       "type": "file",
       "writable": true
     },
@@ -150,7 +150,7 @@
       "mimetype": "text/markdown",
       "name": "manuscript_imrad.qmd",
       "path": "manuscript_imrad.qmd",
-      "size": 137650,
+      "size": 137185,
       "type": "file",
       "writable": true
     },
@@ -164,7 +164,7 @@
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
-      "size": 1487,
+      "size": 1531,
       "type": "file",
       "writable": true
     },
@@ -178,7 +178,7 @@
       "mimetype": "text/markdown",
       "name": "REPORT.md",
       "path": "REPORT.md",
-      "size": 2199,
+      "size": 2243,
       "type": "file",
       "writable": true
     },
@@ -192,7 +192,7 @@
       "mimetype": "text/markdown",
       "name": "REPRO_STATUS.md",
       "path": "REPRO_STATUS.md",
-      "size": 2199,
+      "size": 2243,
       "type": "file",
       "writable": true
     },
