@@ -5,12 +5,12 @@ https://dkacz.github.io/self-defeating-public-investment-cuts-2025-repro-2026060
 
 Current public notebook: `self_defeating_public_investment_cuts_2025_current_reader_notebook_r966_20260604.ipynb`.
 
-Current manuscript render: R993, published 2026-06-05 after the operator-approved abstract logic rewrite.
+Current manuscript render: R995, published 2026-06-05 after the operator-approved abstract wording tweak.
 
 Current manuscript hashes:
-- PDF: `e60574f2580d7537b3ef24ba2298c1385107abaa77977dfabc73c3fee5aca745`
-- EPUB: `988511ccf76b1ef5891497cf8a5de37f93862b20ff07769921538e2587743007`
-- QMD: `06feb4b183b7055ee51f3d7c85a660a95953f1fa7d69de896273d3d57a24ce78`
+- PDF: `7b3dcaf2731a11df2150587782840b56294d4e67b5e847826d286dd2346e6e32`
+- EPUB: `44c34185815a8ca8053c65a2425d69468226f493b5eb163701a458ddec5f3f47`
+- QMD: `a38fa429c12f9b8861ecb2603bb386ea322e08b043e66fa34096d5c3ac86eefc`
 
 Live-source status from the local QA run:
 - Eurostat: used_live_official_api, requested 2025, actual max year 2025.
