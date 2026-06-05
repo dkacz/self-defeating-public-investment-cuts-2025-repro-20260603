@@ -108,7 +108,7 @@
             "mimetype": "application/epub+zip",
             "name": "manuscript_imrad.epub",
             "path": "manuscript_imrad.epub",
-            "size": 479925,
+            "size": 479841,
             "type": "file",
             "writable": true
         },
@@ -122,7 +122,7 @@
             "mimetype": "text/html",
             "name": "manuscript_imrad.html",
             "path": "manuscript_imrad.html",
-            "size": 243166,
+            "size": 242883,
             "type": "file",
             "writable": true
         },
@@ -136,7 +136,7 @@
             "mimetype": "application/pdf",
             "name": "manuscript_imrad.pdf",
             "path": "manuscript_imrad.pdf",
-            "size": 514673,
+            "size": 514705,
             "type": "file",
             "writable": true
         },
@@ -150,7 +150,7 @@
             "mimetype": "text/markdown",
             "name": "manuscript_imrad.qmd",
             "path": "manuscript_imrad.qmd",
-            "size": 138112,
+            "size": 137829,
             "type": "file",
             "writable": true
         },
