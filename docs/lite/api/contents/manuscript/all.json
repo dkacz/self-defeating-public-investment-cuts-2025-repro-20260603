@@ -48,11 +48,11 @@
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2026-06-05T00:00:00Z",
+      "last_modified": "2026-05-25T00:00:00Z",
       "mimetype": "text/markdown",
       "name": "manuscript_imrad.qmd",
       "path": "manuscript/manuscript_imrad.qmd",
-      "size": 136874,
+      "size": 132845,
       "type": "file",
       "writable": true
     }
@@ -61,7 +61,7 @@
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-06-05T00:00:00Z",
+  "last_modified": "2026-05-25T00:00:00Z",
   "mimetype": null,
   "name": "manuscript",
   "path": "manuscript",
