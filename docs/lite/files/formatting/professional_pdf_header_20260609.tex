@@ -1,0 +1,131 @@
+\usepackage[a4paper,top=24mm,bottom=28mm,left=24mm,right=24mm,headheight=15pt,includeheadfoot]{geometry}
+\usepackage{fontspec}
+\setmainfont{SourceSerif4}[
+  Path = /Users/omare/.fonts/source-serif/,
+  Extension = .otf,
+  UprightFont = *-Regular,
+  BoldFont = *-Semibold,
+  ItalicFont = *-It,
+  BoldItalicFont = *-SemiboldIt,
+  Numbers = Proportional
+]
+\setsansfont{SourceSans3}[
+  Path = /Users/omare/.fonts/source-sans/,
+  Extension = .otf,
+  UprightFont = *-Regular,
+  BoldFont = *-Semibold,
+  ItalicFont = *-It,
+  BoldItalicFont = *-SemiboldIt
+]
+\newfontfamily\tabularfigures{SourceSans3}[
+  Path = /Users/omare/.fonts/source-sans/,
+  Extension = .otf,
+  UprightFont = *-Regular,
+  BoldFont = *-Semibold,
+  Numbers = {Monospaced, Lining}
+]
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage{float}
+
+\definecolor{WPBlue}{HTML}{253B59}
+\definecolor{WPRule}{HTML}{7D93AD}
+\definecolor{WPGray}{HTML}{4B5563}
+\definecolor{WPLight}{HTML}{EEF3F8}
+
+\linespread{1.07}
+\setlength{\parskip}{0.58em}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2.5em}
+\setcounter{secnumdepth}{0}
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{flushleft}
+    \vspace*{-9mm}
+    {\color{WPBlue}\rule{\linewidth}{2.4pt}}\par
+    \vspace{0.45em}
+    {\small\sffamily\scshape\color{WPGray}Working paper\hfill June 2026\par}
+    \vspace{1.5em}
+    {\Huge\sffamily\bfseries\color{WPBlue}\@title\par}
+    \vspace{0.85em}
+    {\large\sffamily\color{WPGray}\@author\par}
+    \vspace{1.1em}
+    {\color{WPRule}\rule{\linewidth}{0.7pt}}
+    \vspace{0.9em}
+  \end{flushleft}
+}
+\makeatother
+
+\setkomafont{section}{\Large\bfseries\sffamily\color{WPBlue}}
+\setkomafont{subsection}{\large\bfseries\sffamily\color{WPBlue}}
+\setkomafont{subsubsection}{\normalsize\bfseries\sffamily\color{WPGray}}
+\RedeclareSectionCommand[beforeskip=2.6ex plus .6ex minus .2ex,afterskip=1.0ex]{section}
+\RedeclareSectionCommand[beforeskip=2.0ex plus .5ex minus .2ex,afterskip=.65ex]{subsection}
+\RedeclareSectionCommand[beforeskip=1.6ex plus .4ex minus .2ex,afterskip=.45ex]{subsubsection}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{WPGray}Self-Defeating Public Investment Cuts}
+\fancyhead[R]{\small\sffamily\color{WPGray}\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{WPRule}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\captionsetup{
+  font={small,sf},
+  labelfont={bf,color=WPBlue},
+  textfont={color=WPGray},
+  skip=7pt
+}
+
+\AtBeginDocument{\hypersetup{
+  colorlinks=true,
+  linkcolor=WPBlue,
+  urlcolor=WPBlue,
+  citecolor=WPBlue
+}}
+
+\newif\ifAppendixWideTables
+\AppendixWideTablesfalse
+
+\AtBeginEnvironment{longtable}{%
+  \footnotesize\tabularfigures
+  \ifAppendixWideTables
+    \setlength{\tabcolsep}{5.0pt}%
+    \renewcommand{\arraystretch}{1.16}%
+  \else
+    \setlength{\tabcolsep}{3.2pt}%
+    \renewcommand{\arraystretch}{1.14}%
+  \fi
+}
+\AtEndEnvironment{longtable}{\normalsize\rmfamily}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\heavyrulewidth}{0.9pt}
+\setlength{\lightrulewidth}{0.5pt}
+
+\newcommand{\TableBlock}{\Needspace{18\baselineskip}}
+\newcommand{\CompactTableBlock}{\Needspace{15\baselineskip}}
+\newcommand{\AppendixWideTablesOn}{%
+  \AppendixWideTablestrue
+  \begin{landscape}
+  \footnotesize\tabularfigures
+  \setlength{\tabcolsep}{5.0pt}
+  \renewcommand{\arraystretch}{1.16}
+}
+\newcommand{\AppendixWideTablesOff}{%
+  \normalsize\rmfamily
+  \end{landscape}
+  \AppendixWideTablesfalse
+}
+
+\let\oldquote\quote
+\let\endoldquote\endquote
+\renewenvironment{quote}{\begin{oldquote}\small\color{WPGray}}{\end{oldquote}}
